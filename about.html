@@ -15,28 +15,51 @@
 </head>
 
 <body>
+
   <div class="container">
+    <!-- Панель навигации -->
+    <nav class="navbar navbar-expand-lg fixed-top ">
+      <a class="navbar-brand" href="index.html"><img src="images/logo.jpg" width="60px" height="60px" alt="Логотип"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.html">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="about.html">О нас</a>
+          </li>
 
-    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
-        <li class="breadcrumb-item active" aria-current="page">О нас</li>
-      </ol>
+          <li class="nav-item">
+            <a class="nav-link" href="kontakts.html">Контакты</a>
+          </li>
+        </ul>
+
+      </div>
     </nav>
+    <br><br><br>
+    <nav aria-label="breadcrumb" class="m-1 pt-3 ps-5 ms-5  align-items-center"
+    style='--bs-breadcrumb-divider: "→";'>
+   <ol class="breadcrumb">
+       <li class="breadcrumb-item "><a href="index.html " class="link-dark">Главная</a></li>
+       <li class="breadcrumb-item active" aria-current="page">О нас</li>
+   </ol>
+</nav>
+    <!-- Заголовок -->
     <div class="header ">
-
-      <h1><i>О нас</i></h1>
-
+      <h2 style="font-size: 40pt;  color:azure; text-align: center ">О нас</h2>
     </div>
-
-
+<!-- Контент -->
     <div class="row">
-      <div class="col-4">
+      <div class="col-12 col-sm-12 col-xl-4  col-md-12 col-lg-6">
 
-        <img src="images/about.images/about1.jpg" align="left" alt="дизайн" width="400px" height="400px">
+        <img src="images/about.images/about1.jpg" align="left" alt="дизайн">
 
       </div>
-      <div class="col-8 text-start font-size=28pt;">
+      <div class="col-12 col-sm-12 col-xl-8 col-lg-6 text-start font-size=28pt;">
         <h3><i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, ipsa. Quis, adipisci odio. Corrupti
             hic
             dolor quibusdam iusto eveniet inventore ullam, veritatis, adipisci expedita perspiciatis voluptates quidem
@@ -45,43 +68,53 @@
             Provident.</i></h3>
       </div>
     </div>
+    <br>
+    <hr style="width: 50%; margin: 0 25% 0 25%;">
+    <br><br><br>
     <div class="row">
-      <div class="col-8 text-end font-size=28pt;">
+      <div class="col-12 col-sm-12 col-xl-8 col-lg-6 text-end font-size=28pt;">
         <h3><i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, ipsa. Quis, adipisci odio. Corrupti
-            hic
-            dolor quibusdam iusto eveniet inventore ullam, veritatis, adipisci expedita perspiciatis voluptates quidem
-            sunt ab
-            in.
-            Provident.</i></h3>
+            hic dolor quibusdam iusto eveniet inventore ullam, veritatis, adipisci expedita perspiciatis voluptates
+            quidem
+            sunt ab in Provident.</i></h3>
       </div>
-      <div class="col-4">
-        <img src="images/about.images/about2.jpg" align="right" alt="дизайн" width="400px" height="400px">
+      <div class="col-12 col-sm-12 col-xl-4  col-md-12 col-lg-6">
+        <img src="images/about.images/about2.jpg" align="right" alt="дизайн" ">
       </div>
     </div>
-    <div class="row">
-
-      <div class="col-4">
-        <img src="images/about.images/about3.jpg" align="left" alt="дизайн" ">
+    <br>
+    <hr style=" width: 50%; margin: 0 25% 0 25%;">
+        <br><br><br>
+        <div class=" row">
+          <div class="col-12 col-sm-12 col-xl-4  col-md-12 col-lg-6">
+            <img src="images/about.images/about3.png" align="left" alt="дизайн" ">
         </div>
-      <div class=" col-6 text-start font-size=28pt;">
-        <h3><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque fuga sequi eveniet rem! Quisquam aliquam
-            accusamus
-            id voluptatibus reiciendis qui, </i></h3>
+      <div class=" col-12 col-sm-12 col-xl-8 col-lg-6 text-start font-size=28pt;">
+            <h3><i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, ipsa. Quis, adipisci odio.
+                Corrupti
+                hib dolor quibusdam iusto eveniet inventore ullam, veritatis, adipisci expedita perspiciatis voluptates
+                quidem
+                sunt ab in Provident. </i></h3>
+          </div>
+
+        </div>
       </div>
+      <br><br><br>
+      <!-- Подвал -->
+      <footer class="bg-body-tertiary text-center text-lg-start fixed-bottom">
+        <div class="text-center " style="background-color: rgba(187, 185, 185, 0.05);">
+          © 2024 Студия дизайна Red piano
+        </div>
+
+      </footer>
 
     </div>
-  </div>
-
-  
-
-
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"></script>
 
 </body>
 
